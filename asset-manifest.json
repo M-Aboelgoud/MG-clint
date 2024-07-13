@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/github.io/MG-clint/static/css/main.bffd345c.css",
-    "main.js": "/github.io/MG-clint/static/js/main.640cfad3.js",
-    "index.html": "/github.io/MG-clint/index.html",
-    "main.bffd345c.css.map": "/github.io/MG-clint/static/css/main.bffd345c.css.map",
-    "main.640cfad3.js.map": "/github.io/MG-clint/static/js/main.640cfad3.js.map"
+    "main.css": "/MG-clint/static/css/main.bffd345c.css",
+    "main.js": "/MG-clint/static/js/main.640cfad3.js",
+    "index.html": "/MG-clint/index.html",
+    "main.bffd345c.css.map": "/MG-clint/static/css/main.bffd345c.css.map",
+    "main.640cfad3.js.map": "/MG-clint/static/js/main.640cfad3.js.map"
   },
   "entrypoints": [
     "static/css/main.bffd345c.css",
