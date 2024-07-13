@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MG-clint/static/css/main.bffd345c.css",
+    "main.js": "/MG-clint/static/js/main.640cfad3.js",
+    "index.html": "/MG-clint/index.html",
+    "main.bffd345c.css.map": "/MG-clint/static/css/main.bffd345c.css.map",
+    "main.640cfad3.js.map": "/MG-clint/static/js/main.640cfad3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bffd345c.css",
+    "static/js/main.640cfad3.js"
+  ]
+}
