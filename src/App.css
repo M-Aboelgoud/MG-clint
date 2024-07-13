@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 20px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-container .react-datepicker-wrapper {
+  width: auto;
+}
+
+.filter-container input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 200px;
+}
+
+.filter-container button {
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.filter-container button:hover {
+  background-color: #45a049; /* Darker green */
+}
+
+.table-container {
+  width: 80%;
+  margin: 0 auto 20px;
+  max-height: 400px; /* Fixed height for scrollable table */
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+thead th {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  color: black; /* Black text for table content */
+}
+
+tbody td button {
+  padding: 5px 10px;
+  background-color: #f44336; /* Red */
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+tbody td button:hover {
+  background-color: #d32f2f; /* Darker red */
+}
+
+.download-button {
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #45a049; /* Darker green */
+}
