@@ -11,7 +11,8 @@ const FormTable = ({ forms, onDelete }) => {
                         <th>Name</th>
                         <th>Phone Number</th>
                         <th>location</th>
-                        <th>contact Date</th>
+                        <th>Contact Date</th>
+                        <th>Creation Date</th>
                         <th>Actions</th>
                     </tr>
                 </thead>
@@ -23,8 +24,7 @@ const FormTable = ({ forms, onDelete }) => {
                             <td>{form.phoneNumber}</td>
                             <td>{form.location}</td>
                             <td>{new Date(form.contactDate).toISOString().split('T')[0]}</td>
-                       
-
+                            <td>{new Date(form.createdAt).toISOString().split('T')[0]}</td>
                             <td>
                                 <button onClick={() => onDelete(form._id)}>Delete</button>
                             </td>
